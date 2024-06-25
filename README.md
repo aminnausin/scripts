@@ -6,4 +6,4 @@ CreateSymLink:
 - The new link will be created as a folder with the same name.
 
 ## INSTALL
-- Put in C:\scripts\[scriptFolder]
+- Put in C:\scripts\\[scriptFolder]
