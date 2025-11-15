@@ -1,0 +1,40 @@
+Windows Registry Editor Version 5.00
+
+; Combine with audio
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp4\shell\CombineWithAudio]
+@="Combine with audio"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp4\shell\CombineWithAudio\command]
+@="wscript.exe \"C:\\scripts\\ffmpegCombine\\launchCombineAudio.vbs\" \"%1\""
+
+; Combine with video
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp3\shell\CombineWithVideo]
+@="Combine with video"
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp3\shell\CombineWithVideo\command]
+@="wscript.exe \"C:\\scripts\\ffmpegCombine\\launchCombineVideo.vbs\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.m4a\shell\CombineWithVideo]
+@="Combine with video"
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.m4a\shell\CombineWithVideo\command]
+@="wscript.exe \"C:\\scripts\\ffmpegCombine\\launchCombineVideo.vbs\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.aac\shell\CombineWithVideo]
+@="Combine with video"
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.aac\shell\CombineWithVideo\command]
+@="wscript.exe \"C:\\scripts\\ffmpegCombine\\launchCombineVideo.vbs\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.wav\shell\CombineWithVideo]
+@="Combine with video"
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.wav\shell\CombineWithVideo\command]
+@="wscript.exe \"C:\\scripts\\ffmpegCombine\\launchCombineVideo.vbs\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.flac\shell\CombineWithVideo]
+@="Combine with video"
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.flac\shell\CombineWithVideo\command]
+@="wscript.exe \"C:\\scripts\\ffmpegCombine\\launchCombineVideo.vbs\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp4\shell\CombineWithVideo]
+@="Combine with video"
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp4\shell\CombineWithVideo\command]
+@="wscript.exe \"C:\\scripts\\ffmpegCombine\\launchCombineVideo.vbs\" \"%1\""
